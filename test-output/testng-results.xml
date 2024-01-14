@@ -1,73 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-26T13:57:33 IST" name="Default suite" finished-at="2023-08-26T13:58:08 IST" duration-ms="34750">
+  <suite started-at="2024-01-14T23:18:03 IST" name="Suite" finished-at="2024-01-14T23:18:54 IST" duration-ms="50681">
     <groups>
     </groups>
-    <test started-at="2023-08-26T13:57:33 IST" name="Default test" finished-at="2023-08-26T13:58:08 IST" duration-ms="34750">
-      <class name="testCase.TC005_VerifySearchBox_TergetHomePage">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCase.TC005_VerifySearchBox_TergetHomePage@5fbdfdcf]" started-at="2023-08-26T13:57:33 IST" name="setUp" finished-at="2023-08-26T13:57:42 IST" duration-ms="9160" status="PASS">
+    <test started-at="2024-01-14T23:18:03 IST" name="ChromeBrowserTest" finished-at="2024-01-14T23:18:16 IST" duration-ms="12574">
+      <class name="CncWebWorld.CrossBrowser">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:CncWebWorld.CrossBrowser@2805d709]" started-at="2024-01-14T23:18:03 IST" name="setUp" finished-at="2024-01-14T23:18:06 IST" duration-ms="3006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySearchBoxPresenttOnPage()[pri:0, instance:testCase.TC005_VerifySearchBox_TergetHomePage@5fbdfdcf]" started-at="2023-08-26T13:57:42 IST" name="verifySearchBoxPresenttOnPage" finished-at="2023-08-26T13:57:42 IST" duration-ms="75" status="PASS">
+        <test-method signature="test1()[pri:0, instance:CncWebWorld.CrossBrowser@2805d709]" started-at="2024-01-14T23:18:06 IST" name="test1" finished-at="2024-01-14T23:18:15 IST" duration-ms="9287" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySearchBoxPresenttOnPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC005_VerifySearchBox_TergetHomePage@5fbdfdcf]" started-at="2023-08-26T13:57:42 IST" name="tearDown" finished-at="2023-08-26T13:57:43 IST" duration-ms="184" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CncWebWorld.CrossBrowser@2805d709]" started-at="2024-01-14T23:18:15 IST" name="tearDown" finished-at="2024-01-14T23:18:16 IST" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCase.TC005_VerifySearchBox_TergetHomePage@5fbdfdcf]" started-at="2023-08-26T13:57:43 IST" name="setUp" finished-at="2023-08-26T13:57:49 IST" duration-ms="6746" status="PASS">
+      </class> <!-- CncWebWorld.CrossBrowser -->
+    </test> <!-- ChromeBrowserTest -->
+    <test started-at="2024-01-14T23:18:16 IST" name="EdgeBrowserTest" finished-at="2024-01-14T23:18:40 IST" duration-ms="24564">
+      <class name="CncWebWorld.CrossBrowser">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:CncWebWorld.CrossBrowser@3f6f6701]" started-at="2024-01-14T23:18:16 IST" name="setUp" finished-at="2024-01-14T23:18:17 IST" duration-ms="1509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySearchBoxPresenttOnPage()[pri:0, instance:testCase.TC005_VerifySearchBox_TergetHomePage@5fbdfdcf]" started-at="2023-08-26T13:57:49 IST" name="verifySearchBoxPresenttOnPage" finished-at="2023-08-26T13:57:49 IST" duration-ms="62" status="PASS">
+        <test-method signature="test1()[pri:0, instance:CncWebWorld.CrossBrowser@3f6f6701]" started-at="2024-01-14T23:18:17 IST" name="test1" finished-at="2024-01-14T23:18:40 IST" duration-ms="22804" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySearchBoxPresenttOnPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC005_VerifySearchBox_TergetHomePage@5fbdfdcf]" started-at="2023-08-26T13:57:49 IST" name="tearDown" finished-at="2023-08-26T13:57:49 IST" duration-ms="135" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CncWebWorld.CrossBrowser@3f6f6701]" started-at="2024-01-14T23:18:40 IST" name="tearDown" finished-at="2024-01-14T23:18:40 IST" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCase.TC005_VerifySearchBox_TergetHomePage@5fbdfdcf]" started-at="2023-08-26T13:57:49 IST" name="setUp" finished-at="2023-08-26T13:57:56 IST" duration-ms="6013" status="PASS">
+      </class> <!-- CncWebWorld.CrossBrowser -->
+    </test> <!-- EdgeBrowserTest -->
+    <test started-at="2024-01-14T23:18:40 IST" name="FireFoxBrowserTest" finished-at="2024-01-14T23:18:54 IST" duration-ms="13460">
+      <class name="CncWebWorld.CrossBrowser">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:CncWebWorld.CrossBrowser@534a5a98]" started-at="2024-01-14T23:18:40 IST" name="setUp" finished-at="2024-01-14T23:18:45 IST" duration-ms="5022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifySearchBoxPresenttOnPage()[pri:0, instance:testCase.TC005_VerifySearchBox_TergetHomePage@5fbdfdcf]" started-at="2023-08-26T13:57:56 IST" name="verifySearchBoxPresenttOnPage" finished-at="2023-08-26T13:57:56 IST" duration-ms="58" status="PASS">
+        <test-method signature="test1()[pri:0, instance:CncWebWorld.CrossBrowser@534a5a98]" started-at="2024-01-14T23:18:45 IST" name="test1" finished-at="2024-01-14T23:18:52 IST" duration-ms="7021" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySearchBoxPresenttOnPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC005_VerifySearchBox_TergetHomePage@5fbdfdcf]" started-at="2023-08-26T13:57:56 IST" name="tearDown" finished-at="2023-08-26T13:57:56 IST" duration-ms="125" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCase.TC005_VerifySearchBox_TergetHomePage@5fbdfdcf]" started-at="2023-08-26T13:57:56 IST" name="setUp" finished-at="2023-08-26T13:58:02 IST" duration-ms="5980" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifySearchBoxPresenttOnPage()[pri:0, instance:testCase.TC005_VerifySearchBox_TergetHomePage@5fbdfdcf]" started-at="2023-08-26T13:58:02 IST" name="verifySearchBoxPresenttOnPage" finished-at="2023-08-26T13:58:02 IST" duration-ms="88" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchBoxPresenttOnPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC005_VerifySearchBox_TergetHomePage@5fbdfdcf]" started-at="2023-08-26T13:58:02 IST" name="tearDown" finished-at="2023-08-26T13:58:02 IST" duration-ms="128" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CncWebWorld.CrossBrowser@534a5a98]" started-at="2024-01-14T23:18:52 IST" name="tearDown" finished-at="2024-01-14T23:18:54 IST" duration-ms="1413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCase.TC005_VerifySearchBox_TergetHomePage@5fbdfdcf]" started-at="2023-08-26T13:58:02 IST" name="setUp" finished-at="2023-08-26T13:58:08 IST" duration-ms="5782" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifySearchBoxPresenttOnPage()[pri:0, instance:testCase.TC005_VerifySearchBox_TergetHomePage@5fbdfdcf]" started-at="2023-08-26T13:58:08 IST" name="verifySearchBoxPresenttOnPage" finished-at="2023-08-26T13:58:08 IST" duration-ms="64" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchBoxPresenttOnPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC005_VerifySearchBox_TergetHomePage@5fbdfdcf]" started-at="2023-08-26T13:58:08 IST" name="tearDown" finished-at="2023-08-26T13:58:08 IST" duration-ms="118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCase.TC005_VerifySearchBox_TergetHomePage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- CncWebWorld.CrossBrowser -->
+    </test> <!-- FireFoxBrowserTest -->
+  </suite> <!-- Suite -->
 </testng-results>

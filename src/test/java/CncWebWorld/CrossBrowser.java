@@ -34,6 +34,11 @@ public class CrossBrowser {
 		{
 			driver=new FirefoxDriver();
 			driver.manage().window().maximize();
+			
+		}
+		else
+		{
+			System.out.println("No browser checked");
 		}
 	}
 	
